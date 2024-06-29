@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+}
+@layer components{
+    .btn{
+      @apply flex justify-center items-center font-Indie text-[65px] font-bold bg-transparent border-2 border-white  cursor-pointer;
+    }
+    .container-style{
+      @apply   bg-background flex items-center justify-center h-screen;
+    }
+    .form-grid{
+      @apply grid grid-cols-1 lg:grid-cols-2 bg-gray-200 rounded-xl p-2;
+    }
+}
+
+
+
+
